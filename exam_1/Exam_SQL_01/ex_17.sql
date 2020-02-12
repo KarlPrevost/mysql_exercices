@@ -1,0 +1,1 @@
+SELECT film.titre AS 'Titre du film', distrib.nom AS 'Nom du distributeur' FROM film LEFT JOIN distrib USING (id_distrib) WHERE id_film IN (21, 87, 263, 413, 633);

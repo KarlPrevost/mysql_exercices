@@ -1,0 +1,1 @@
+select titre as "Titre des 12 derniers films" from film order by id_film desc limit 12;

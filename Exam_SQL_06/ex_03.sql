@@ -1,0 +1,1 @@
+select count(id_film) as "Nombre de films" from film;

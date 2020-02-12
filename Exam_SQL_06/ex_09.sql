@@ -1,0 +1,1 @@
+select duree_min as 'Duree du film le plus court' from film where duree_min is not null and not duree_min = 0 order by duree_min limit 1;

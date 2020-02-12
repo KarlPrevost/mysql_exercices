@@ -1,0 +1,1 @@
+SELECT genre.nom "Nom du genre", count(film.id_film) "Nombre de films" FROM film RIGHT JOIN genre ON film.id_genre = genre.id_genre GROUP BY genre.id_genre order by count(film.id_genre) DESC, genre.nom ASC;

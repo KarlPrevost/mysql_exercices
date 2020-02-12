@@ -1,0 +1,1 @@
+select titre from film left join genre on film.id_genre = genre.id_genre where genre.nom = "action" or genre.nom = "romance";

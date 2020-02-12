@@ -1,0 +1,1 @@
+select etage_salle as 'Numero etage', SUM(nbr_siege) as 'Nombre total de sieges', COUNT(numero_salle) as 'Nombre total de salles' from salle group by etage_salle order by SUM(nbr_siege);

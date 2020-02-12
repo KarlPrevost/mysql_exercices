@@ -1,0 +1,1 @@
+select numero_salle as "Numéro des salles", nom_salle as "Nom des salles" FROM salle where nbr_siege > 200 and etage_salle != 0;

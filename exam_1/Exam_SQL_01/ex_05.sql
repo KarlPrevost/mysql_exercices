@@ -1,0 +1,1 @@
+SELECT titre AS 'Titre des 12 premiers films' FROM film LIMIT 12;

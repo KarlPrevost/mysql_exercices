@@ -1,0 +1,1 @@
+select titre,resum from film order by titre asc;

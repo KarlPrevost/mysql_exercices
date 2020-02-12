@@ -1,0 +1,1 @@
+select * from reduction order by pourcentage_reduc asc, nom desc;

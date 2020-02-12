@@ -1,0 +1,1 @@
+select concat(concat(upper(substring(nom,1,1)),substring(nom,2)), '-', prenom) from profiles order by date_naissance asc;

@@ -1,0 +1,1 @@
+SELECT CASE WHEN LENGTH(resum) > 92 THEN RPAD(SUBSTRING(resum, 1, 89), 92, '.') ELSE resum END AS 'resum ...' FROM film WHERE id_film % 2 = 1 AND id_film BETWEEN 42 AND 84;

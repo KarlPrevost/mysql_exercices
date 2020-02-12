@@ -1,0 +1,1 @@
+select count(id_film) as "Nombre de films 'westerns'" from film left join genre on film.id_genre = genre.id_genre left join distrib on film.id_distrib = distrib.id_distrib where genre.nom = "western" and (distrib.nom in ('tartan films', 'lionsgate uk') or film.titre like "T%");
